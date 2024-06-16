@@ -1,0 +1,39 @@
+
+class CategoryController extends Controller
+{
+    private $category_repo;
+
+    public function __construct(CategoryRepositoryInterface $category_repo) {
+        $this->category_repo = $category_repo;
+    }
+
+    public function index()
+    {
+
+    }
+
+    public function getCreate()
+    {
+
+    }
+
+    public function postCreate()
+    {
+
+    }
+
+    public function getEdit()
+    {
+
+    }
+
+    public function postEdit()
+    {
+
+    }
+
+    public function delete()
+    {
+
+    }
+}
